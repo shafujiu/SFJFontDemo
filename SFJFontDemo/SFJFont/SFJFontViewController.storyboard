@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="y55-aC-NUI">
+            <objects>
+                <navigationController id="4eY-hq-50r" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6uk-xG-dv0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cCg-5v-R7a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G9A-Mo-MmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1286" y="206"/>
+        </scene>
+        <!--字体下载-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SFJFontViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="SFJFontViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是预览效果你喜欢最好" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9N-DZ-M6Q">
+                                <rect key="frame" x="10" y="74" width="355" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iSq-Uq-31g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1334631741" green="0.1823148429" blue="0.25190103050000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YDK-fZ-Qge">
+                                <rect key="frame" x="0.0" y="134" width="375" height="533"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="0Ou-qa-Ddr"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JEl-mV-dBK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YDK-fZ-Qge" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="273-P0-fOZ"/>
+                            <constraint firstItem="V9N-DZ-M6Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="6eV-zZ-HuL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YDK-fZ-Qge" secondAttribute="bottom" id="VGT-cl-j8L"/>
+                            <constraint firstItem="YDK-fZ-Qge" firstAttribute="top" secondItem="V9N-DZ-M6Q" secondAttribute="bottom" constant="10" id="cSY-EZ-siG"/>
+                            <constraint firstAttribute="trailing" secondItem="V9N-DZ-M6Q" secondAttribute="trailing" constant="10" id="je1-uS-Ds8"/>
+                            <constraint firstItem="V9N-DZ-M6Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="paB-VT-wuF"/>
+                            <constraint firstAttribute="trailing" secondItem="YDK-fZ-Qge" secondAttribute="trailing" id="peb-1b-NM1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="字体下载" id="WWY-l1-Z9c"/>
+                    <connections>
+                        <outlet property="previewLbl" destination="V9N-DZ-M6Q" id="UWM-8V-p1B"/>
+                        <outlet property="tableView" destination="YDK-fZ-Qge" id="i4R-Nr-zPj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-465" y="206"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ocx-yZ-3Ay">
+            <objects>
+                <viewController id="eQA-aW-Jda" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yqT-WQ-Jat"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cjy-f0-X5p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yJw-yg-WLu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBX-Ut-4fG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231" y="205"/>
+        </scene>
+    </scenes>
+</document>

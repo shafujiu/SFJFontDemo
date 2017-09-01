@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>chinesName</key>
+		<string>报隶-简 常规体</string>
+		<key>fontName</key>
+		<string>STBaoliSC-Regular</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>华文仿宋 常规体</string>
+		<key>fontName</key>
+		<string>STFangsong</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>华文楷体 常规体</string>
+		<key>fontName</key>
+		<string>STKaiti</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>隶变-简 常规体</string>
+		<key>fontName</key>
+		<string>STLibianSC-Regular</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>凌慧体-简 中黑体</string>
+		<key>fontName</key>
+		<string>MLingWaiMedium-SC</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>翩翩体-简 常规体</string>
+		<key>fontName</key>
+		<string>HanziPenSC-W3</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>手札体-简 常规体</string>
+		<key>fontName</key>
+		<string>HannotateSC-W5</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>娃娃体-简 常规体</string>
+		<key>fontName</key>
+		<string>DFWaWaSC-W5</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>魏碑-简 粗体</string>
+		<key>fontName</key>
+		<string>Weibei-SC-Bold</string>
+	</dict>
+	<dict>
+		<key>chinesName</key>
+		<string>行楷-简 粗体</string>
+		<key>fontName</key>
+		<string>STXingkaiSC-Bold</string>
+	</dict>
+</array>
+</plist>

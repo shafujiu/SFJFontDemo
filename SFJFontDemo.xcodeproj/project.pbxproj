@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81250CEA1F58409B0096712B /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 81250CE71F58409B0096712B /* AwesomeMenu.m */; };
+		81250CEB1F58409B0096712B /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81250CE91F58409B0096712B /* AwesomeMenuItem.m */; };
+		81250CED1F58F8150096712B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81250CEC1F58F8150096712B /* Assets.xcassets */; };
+		81B1BB511F45A69900A15BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BB501F45A69900A15BF1 /* main.m */; };
+		81B1BB541F45A69900A15BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BB531F45A69900A15BF1 /* AppDelegate.m */; };
+		81B1BB5F1F45A69900A15BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B1BB5D1F45A69900A15BF1 /* LaunchScreen.storyboard */; };
+		81B1BB6A1F45A69900A15BF1 /* SFJFontDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BB691F45A69900A15BF1 /* SFJFontDemoTests.m */; };
+		81B1BB751F45A69900A15BF1 /* SFJFontDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BB741F45A69900A15BF1 /* SFJFontDemoUITests.m */; };
+		81DC52711F52CDA700768528 /* SFJFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC52651F52CDA700768528 /* SFJFontViewController.m */; };
+		81DC52721F52CDA700768528 /* SFJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC52681F52CDA700768528 /* SFJFont.m */; };
+		81DC52731F52CDA700768528 /* SFJFontDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC526A1F52CDA700768528 /* SFJFontDownLoader.m */; };
+		81DC52751F52CDA700768528 /* SFJFontViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DC526C1F52CDA700768528 /* SFJFontViewController.storyboard */; };
+		81DC52761F52CDA700768528 /* SFJFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC526F1F52CDA700768528 /* SFJFontCell.m */; };
+		81DC52771F52CDA700768528 /* SFJFontCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DC52701F52CDA700768528 /* SFJFontCell.xib */; };
+		81DC527B1F52CDFD00768528 /* SFJFonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81DC527A1F52CDFD00768528 /* SFJFonts.plist */; };
+		81DC529C1F54055000768528 /* FFCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC529B1F54055000768528 /* FFCircularProgressView.m */; };
+		81DC529F1F5405DE00768528 /* UIColor+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC529E1F5405DE00768528 /* UIColor+iOS7.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B1BB661F45A69900A15BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B1BB441F45A69900A15BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B1BB4B1F45A69900A15BF1;
+			remoteInfo = SFJFontDemo;
+		};
+		81B1BB711F45A69900A15BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B1BB441F45A69900A15BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B1BB4B1F45A69900A15BF1;
+			remoteInfo = SFJFontDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81250CE61F58409B0096712B /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		81250CE71F58409B0096712B /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		81250CE81F58409B0096712B /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		81250CE91F58409B0096712B /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		81250CEC1F58F8150096712B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B1BB4C1F45A69900A15BF1 /* SFJFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFJFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B1BB501F45A69900A15BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81B1BB521F45A69900A15BF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81B1BB531F45A69900A15BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81B1BB5E1F45A69900A15BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B1BB601F45A69900A15BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B1BB651F45A69900A15BF1 /* SFJFontDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJFontDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B1BB691F45A69900A15BF1 /* SFJFontDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJFontDemoTests.m; sourceTree = "<group>"; };
+		81B1BB6B1F45A69900A15BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B1BB701F45A69900A15BF1 /* SFJFontDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJFontDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B1BB741F45A69900A15BF1 /* SFJFontDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJFontDemoUITests.m; sourceTree = "<group>"; };
+		81B1BB761F45A69900A15BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DC52641F52CDA700768528 /* SFJFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFontViewController.h; sourceTree = "<group>"; };
+		81DC52651F52CDA700768528 /* SFJFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFontViewController.m; sourceTree = "<group>"; };
+		81DC52671F52CDA700768528 /* SFJFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFont.h; sourceTree = "<group>"; };
+		81DC52681F52CDA700768528 /* SFJFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFont.m; sourceTree = "<group>"; };
+		81DC52691F52CDA700768528 /* SFJFontDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFontDownLoader.h; sourceTree = "<group>"; };
+		81DC526A1F52CDA700768528 /* SFJFontDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFontDownLoader.m; sourceTree = "<group>"; };
+		81DC526C1F52CDA700768528 /* SFJFontViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SFJFontViewController.storyboard; sourceTree = "<group>"; };
+		81DC526E1F52CDA700768528 /* SFJFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFontCell.h; sourceTree = "<group>"; };
+		81DC526F1F52CDA700768528 /* SFJFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFontCell.m; sourceTree = "<group>"; };
+		81DC52701F52CDA700768528 /* SFJFontCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFJFontCell.xib; sourceTree = "<group>"; };
+		81DC527A1F52CDFD00768528 /* SFJFonts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SFJFonts.plist; sourceTree = "<group>"; };
+		81DC529A1F54055000768528 /* FFCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircularProgressView.h; sourceTree = "<group>"; };
+		81DC529B1F54055000768528 /* FFCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircularProgressView.m; sourceTree = "<group>"; };
+		81DC529D1F5405DE00768528 /* UIColor+iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7.h"; sourceTree = "<group>"; };
+		81DC529E1F5405DE00768528 /* UIColor+iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B1BB491F45A69900A15BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB621F45A69900A15BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB6D1F45A69900A15BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81250CE51F58409B0096712B /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				81250CE61F58409B0096712B /* AwesomeMenu.h */,
+				81250CE71F58409B0096712B /* AwesomeMenu.m */,
+				81250CE81F58409B0096712B /* AwesomeMenuItem.h */,
+				81250CE91F58409B0096712B /* AwesomeMenuItem.m */,
+			);
+			path = AwesomeMenu;
+			sourceTree = "<group>";
+		};
+		81B1BB431F45A69900A15BF1 = {
+			isa = PBXGroup;
+			children = (
+				81B1BB4E1F45A69900A15BF1 /* SFJFontDemo */,
+				81B1BB681F45A69900A15BF1 /* SFJFontDemoTests */,
+				81B1BB731F45A69900A15BF1 /* SFJFontDemoUITests */,
+				81B1BB4D1F45A69900A15BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B1BB4D1F45A69900A15BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B1BB4C1F45A69900A15BF1 /* SFJFontDemo.app */,
+				81B1BB651F45A69900A15BF1 /* SFJFontDemoTests.xctest */,
+				81B1BB701F45A69900A15BF1 /* SFJFontDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B1BB4E1F45A69900A15BF1 /* SFJFontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				81B1BB521F45A69900A15BF1 /* AppDelegate.h */,
+				81B1BB531F45A69900A15BF1 /* AppDelegate.m */,
+				81DC52621F52CDA700768528 /* SFJFont */,
+				81B1BB5D1F45A69900A15BF1 /* LaunchScreen.storyboard */,
+				81DC527A1F52CDFD00768528 /* SFJFonts.plist */,
+				81B1BB601F45A69900A15BF1 /* Info.plist */,
+				81B1BB4F1F45A69900A15BF1 /* Supporting Files */,
+			);
+			path = SFJFontDemo;
+			sourceTree = "<group>";
+		};
+		81B1BB4F1F45A69900A15BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81250CEC1F58F8150096712B /* Assets.xcassets */,
+				81B1BB501F45A69900A15BF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B1BB681F45A69900A15BF1 /* SFJFontDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B1BB691F45A69900A15BF1 /* SFJFontDemoTests.m */,
+				81B1BB6B1F45A69900A15BF1 /* Info.plist */,
+			);
+			path = SFJFontDemoTests;
+			sourceTree = "<group>";
+		};
+		81B1BB731F45A69900A15BF1 /* SFJFontDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B1BB741F45A69900A15BF1 /* SFJFontDemoUITests.m */,
+				81B1BB761F45A69900A15BF1 /* Info.plist */,
+			);
+			path = SFJFontDemoUITests;
+			sourceTree = "<group>";
+		};
+		81DC52621F52CDA700768528 /* SFJFont */ = {
+			isa = PBXGroup;
+			children = (
+				81DC52691F52CDA700768528 /* SFJFontDownLoader.h */,
+				81DC526A1F52CDA700768528 /* SFJFontDownLoader.m */,
+				81DC526C1F52CDA700768528 /* SFJFontViewController.storyboard */,
+				81DC52631F52CDA700768528 /* Controller */,
+				81DC52661F52CDA700768528 /* Model */,
+				81DC526D1F52CDA700768528 /* View */,
+			);
+			path = SFJFont;
+			sourceTree = "<group>";
+		};
+		81DC52631F52CDA700768528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81DC52641F52CDA700768528 /* SFJFontViewController.h */,
+				81DC52651F52CDA700768528 /* SFJFontViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81DC52661F52CDA700768528 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81DC52671F52CDA700768528 /* SFJFont.h */,
+				81DC52681F52CDA700768528 /* SFJFont.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81DC526D1F52CDA700768528 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81250CE51F58409B0096712B /* AwesomeMenu */,
+				81DC529D1F5405DE00768528 /* UIColor+iOS7.h */,
+				81DC529E1F5405DE00768528 /* UIColor+iOS7.m */,
+				81DC529A1F54055000768528 /* FFCircularProgressView.h */,
+				81DC529B1F54055000768528 /* FFCircularProgressView.m */,
+				81DC526E1F52CDA700768528 /* SFJFontCell.h */,
+				81DC526F1F52CDA700768528 /* SFJFontCell.m */,
+				81DC52701F52CDA700768528 /* SFJFontCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B1BB4B1F45A69900A15BF1 /* SFJFontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B1BB791F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemo" */;
+			buildPhases = (
+				81B1BB481F45A69900A15BF1 /* Sources */,
+				81B1BB491F45A69900A15BF1 /* Frameworks */,
+				81B1BB4A1F45A69900A15BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFJFontDemo;
+			productName = SFJFontDemo;
+			productReference = 81B1BB4C1F45A69900A15BF1 /* SFJFontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B1BB641F45A69900A15BF1 /* SFJFontDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B1BB7C1F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemoTests" */;
+			buildPhases = (
+				81B1BB611F45A69900A15BF1 /* Sources */,
+				81B1BB621F45A69900A15BF1 /* Frameworks */,
+				81B1BB631F45A69900A15BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B1BB671F45A69900A15BF1 /* PBXTargetDependency */,
+			);
+			name = SFJFontDemoTests;
+			productName = SFJFontDemoTests;
+			productReference = 81B1BB651F45A69900A15BF1 /* SFJFontDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B1BB6F1F45A69900A15BF1 /* SFJFontDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B1BB7F1F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemoUITests" */;
+			buildPhases = (
+				81B1BB6C1F45A69900A15BF1 /* Sources */,
+				81B1BB6D1F45A69900A15BF1 /* Frameworks */,
+				81B1BB6E1F45A69900A15BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B1BB721F45A69900A15BF1 /* PBXTargetDependency */,
+			);
+			name = SFJFontDemoUITests;
+			productName = SFJFontDemoUITests;
+			productReference = 81B1BB701F45A69900A15BF1 /* SFJFontDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B1BB441F45A69900A15BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFJ;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "沙缚柩";
+				TargetAttributes = {
+					81B1BB4B1F45A69900A15BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9FE55VPLAR;
+						ProvisioningStyle = Automatic;
+					};
+					81B1BB641F45A69900A15BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9FE55VPLAR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B1BB4B1F45A69900A15BF1;
+					};
+					81B1BB6F1F45A69900A15BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9FE55VPLAR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B1BB4B1F45A69900A15BF1;
+					};
+				};
+			};
+			buildConfigurationList = 81B1BB471F45A69900A15BF1 /* Build configuration list for PBXProject "SFJFontDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B1BB431F45A69900A15BF1;
+			productRefGroup = 81B1BB4D1F45A69900A15BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B1BB4B1F45A69900A15BF1 /* SFJFontDemo */,
+				81B1BB641F45A69900A15BF1 /* SFJFontDemoTests */,
+				81B1BB6F1F45A69900A15BF1 /* SFJFontDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B1BB4A1F45A69900A15BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B1BB5F1F45A69900A15BF1 /* LaunchScreen.storyboard in Resources */,
+				81DC527B1F52CDFD00768528 /* SFJFonts.plist in Resources */,
+				81DC52771F52CDA700768528 /* SFJFontCell.xib in Resources */,
+				81DC52751F52CDA700768528 /* SFJFontViewController.storyboard in Resources */,
+				81250CED1F58F8150096712B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB631F45A69900A15BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB6E1F45A69900A15BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B1BB481F45A69900A15BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DC52761F52CDA700768528 /* SFJFontCell.m in Sources */,
+				81250CEB1F58409B0096712B /* AwesomeMenuItem.m in Sources */,
+				81B1BB541F45A69900A15BF1 /* AppDelegate.m in Sources */,
+				81DC52711F52CDA700768528 /* SFJFontViewController.m in Sources */,
+				81250CEA1F58409B0096712B /* AwesomeMenu.m in Sources */,
+				81DC529F1F5405DE00768528 /* UIColor+iOS7.m in Sources */,
+				81DC52721F52CDA700768528 /* SFJFont.m in Sources */,
+				81B1BB511F45A69900A15BF1 /* main.m in Sources */,
+				81DC529C1F54055000768528 /* FFCircularProgressView.m in Sources */,
+				81DC52731F52CDA700768528 /* SFJFontDownLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB611F45A69900A15BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B1BB6A1F45A69900A15BF1 /* SFJFontDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B1BB6C1F45A69900A15BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B1BB751F45A69900A15BF1 /* SFJFontDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B1BB671F45A69900A15BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B1BB4B1F45A69900A15BF1 /* SFJFontDemo */;
+			targetProxy = 81B1BB661F45A69900A15BF1 /* PBXContainerItemProxy */;
+		};
+		81B1BB721F45A69900A15BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B1BB4B1F45A69900A15BF1 /* SFJFontDemo */;
+			targetProxy = 81B1BB711F45A69900A15BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B1BB5D1F45A69900A15BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B1BB5E1F45A69900A15BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B1BB771F45A69900A15BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B1BB781F45A69900A15BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B1BB7A1F45A69900A15BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81B1BB7B1F45A69900A15BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81B1BB7D1F45A69900A15BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFJFontDemo.app/SFJFontDemo";
+			};
+			name = Debug;
+		};
+		81B1BB7E1F45A69900A15BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFJFontDemo.app/SFJFontDemo";
+			};
+			name = Release;
+		};
+		81B1BB801F45A69900A15BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFJFontDemo;
+			};
+			name = Debug;
+		};
+		81B1BB811F45A69900A15BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
+				INFOPLIST_FILE = SFJFontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJFontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFJFontDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B1BB471F45A69900A15BF1 /* Build configuration list for PBXProject "SFJFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B1BB771F45A69900A15BF1 /* Debug */,
+				81B1BB781F45A69900A15BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B1BB791F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B1BB7A1F45A69900A15BF1 /* Debug */,
+				81B1BB7B1F45A69900A15BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B1BB7C1F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B1BB7D1F45A69900A15BF1 /* Debug */,
+				81B1BB7E1F45A69900A15BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B1BB7F1F45A69900A15BF1 /* Build configuration list for PBXNativeTarget "SFJFontDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B1BB801F45A69900A15BF1 /* Debug */,
+				81B1BB811F45A69900A15BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B1BB441F45A69900A15BF1 /* Project object */;
+}
